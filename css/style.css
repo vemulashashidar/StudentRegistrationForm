@@ -1,0 +1,42 @@
+
+.container {
+    height: 700;
+    width:100%;
+    background-image: url(./images/background1.png);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.tablecolor {
+    background-color: #ac9d9d;
+    background-size: 30%;
+    height: 450;
+    width: 35%;
+   
+}
+
+.button {
+     background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 17px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
